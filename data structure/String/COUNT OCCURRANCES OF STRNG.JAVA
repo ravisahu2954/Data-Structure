@@ -29,3 +29,6 @@ COUNT OCCURRANCES OF STRNG
      }
 
 //*******//
+Time Complexity: O(N log N), where N = length of the string passed and it generally takes logN time for an element insertion in a map.
+
+Space Complexity: O(K), where K = size of the map
