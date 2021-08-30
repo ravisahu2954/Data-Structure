@@ -46,3 +46,5 @@ Arrays.sort(arr, new Mycom());
      }
 }
 //**********//
+
+// 2d array k andar jo one d array h usme sirf 2 elements h toh unke 0th index k basis p sorting ho rha h
