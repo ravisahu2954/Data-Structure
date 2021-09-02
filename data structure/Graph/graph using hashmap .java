@@ -54,3 +54,9 @@ public class HelloWorld{
           obj.print();
      }
 }
+//////*******************//////////////
+output:::
+ mumbai -> indore 100 , mumbai -> bhopal 500 , 
+indore -> delhi 200 , indore -> mumbai 100 , 
+bhopal -> mumbai 500 , bhopal -> delhi 650 , 
+delhi -> indore 200 , delhi -> bhopal 650 , 
