@@ -1,5 +1,5 @@
 #day2
-
+ using hashmap...........
 public static int firstRepeated(int[] arr, int n) {
         
         HashMap<Integer , Integer> hm = new HashMap<>();
@@ -22,4 +22,20 @@ public static int firstRepeated(int[] arr, int n) {
 Expected Time Complexity: O(n)
 Expected Auxilliary Space: O(n)
 //*******//
-  
+ using HashSet ...........
+         public static int firstRepeated(int[] arr, int n) {
+        int min=-1;
+        HashSet<Integer> hs = new HashSet<>();
+        for(int i=n-1 ;i>=0 ; i--)
+        {
+            if(hs.contains(arr[i]))
+               min=i;
+            else
+            hs.add(arr[i]);
+        }
+        if(min!=-1)
+        return min+1;
+        else
+         return min;
+        
+    }
