@@ -38,4 +38,19 @@ this is also work
 	    }
 		      
      }
+/////
+///
+//
+efficient algorithm
+
+ for(int i=2;i*i<=number/2;i++)   //i*i<=number , i^2<=number , i=sqrt(number)
+     {
+	if(number%2==0)
+	    {
+		temp=1;
+	         break;
+	    }
+		      
+     }
+
 
