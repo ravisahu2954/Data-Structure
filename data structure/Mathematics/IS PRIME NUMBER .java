@@ -25,3 +25,17 @@ class Code
 		   System.out.println("number is not prime "+ number); 
 	}
 }
+///
+///
+//
+this is also work 
+ for(int i=2;i<=number/2;i++)   //i<=number/2
+     {
+	if(number%2==0)
+	    {
+		temp=1;
+	         break;
+	    }
+		      
+     }
+
