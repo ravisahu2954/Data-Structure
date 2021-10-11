@@ -8,8 +8,8 @@ class Code
 {
 	public static void main (String[] args) throws java.lang.Exception
 	{
-	  int a=24,b=18;
-		int num1=0,num2=0;
+	  
+	        int num1=24,num2=18;
 		
 		while(num1!=0)
 		{
@@ -18,6 +18,10 @@ class Code
 		      num1=temp;
 		      
 		}
-		System.out.println("Greates common divisor : "+ num2);
+		System.out.println("Greatest common divisor : "+ num2);
 	}
 }
+.
+.	
+	
+	
