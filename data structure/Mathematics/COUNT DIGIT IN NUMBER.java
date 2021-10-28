@@ -15,6 +15,7 @@ class Main
 	Scanner sc = new Scanner(System.in);
         int n= sc.nextInt();
         System.out.println(f(n));
+	}	
   }
 	private static int f(int n)
 	{
