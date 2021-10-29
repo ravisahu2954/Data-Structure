@@ -12,7 +12,7 @@ class Code
 		int temp=0;
 		for(int i=2;i<number;i++)
 		{
-		  if(number%2==0)
+		  if(number%i==0)
 		    {
 		          temp=1;
 		          break;
@@ -31,7 +31,7 @@ class Code
 this is also work 
  for(int i=2;i<=number/2;i++)   //i<=number/2
      {
-	if(number%2==0)
+	if(number%i==0)
 	    {
 		temp=1;
 	         break;
@@ -45,7 +45,7 @@ efficient algorithm
 
  for(int i=2;i*i<=number/2;i++)   //i*i<=number , i^2<=number , i=sqrt(number)
      {
-	if(number%2==0)
+	if(number%i==0)
 	    {
 		temp=1;
 	         break;
