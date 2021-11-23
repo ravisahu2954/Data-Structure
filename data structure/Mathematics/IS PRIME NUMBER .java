@@ -19,7 +19,7 @@ class Code
 		    }
 		      
 		}
-		if(temp==0 && number!=1)
+		if(temp==0)
 		   System.out.println("number is prime "+ number);
 		else
 		   System.out.println("number is not prime "+ number); 
@@ -43,7 +43,7 @@ this is also work
 //
 efficient algorithm
 
- for(int i=2;i*i<=number/2;i++)   //i*i<=number , i^2<=number , i=sqrt(number)
+ for(int i=2;i*i<=number;i++)   //i*i<=number , i^2<=number , i=sqrt(number)
      {
 	if(number%i==0)
 	    {
