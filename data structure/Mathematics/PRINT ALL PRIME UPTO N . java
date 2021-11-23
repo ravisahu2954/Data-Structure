@@ -1,26 +1,32 @@
+QUESTION LINK : https://www.pepcoding.com/resources/online-java-foundation/getting-started/print-all-primes-till-n-official/ojquestion
 
+Solution :
 
 import java.util.*;
-import java.lang.*;
-import java.io.*;
-class Codechef
-{
-	public static void main (String[] args) throws java.lang.Exception
-	{
-	      Scanner sc = new Scanner(System.in);
-	      int number = sc.nextInt();
-		int temp=0;
-		 System.out.println("number is prime " + 2 + "\nnumber is prime " + 3);
-		for(int i=4;i<=number;i++)
-		{
-		  if(i%2!=0 && i%3!=0)
-		    {
-                   System.out.println("number is prime "+ i);		       
-		    }
-		      
-		}
-  }
+
+public class Main{
+    public static void main(String[] args) {
+        Scanner sc = new Scanner (System.in);
+        
+        int n1 = sc.nextInt();
+        int n2 = sc.nextInt();
+        
+        for(int i= n1 ; i<=n2;i++)
+        {
+            if(isprime(i))
+               System.out.println(i);
+        }
+    }
+    private static boolean isprime(int n)
+    {
+        
+        
+        for(int i=2;i*i<=n;i++)
+        {
+             if(n%i==0)
+                return false;
+        }
+        return true;
+        
+    }
 }
-//
-///
-//
