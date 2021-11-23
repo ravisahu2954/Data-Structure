@@ -1,4 +1,4 @@
-
+QUESTION LINK : https://www.pepcoding.com/resources/online-java-foundation/getting-started/is-number-prime-official/ojquestion
 
 import java.util.*;
 import java.lang.*;
