@@ -1,4 +1,8 @@
-COUNT OCCURRANCES OF STRNG
+COUNT OCCURRANCES character in OF STRNG
+input : aabcc
+output : a 2
+         b 1
+         c 2
 
 //**********//
 
