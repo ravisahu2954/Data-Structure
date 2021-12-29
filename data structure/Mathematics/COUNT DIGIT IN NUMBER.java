@@ -33,3 +33,26 @@ private static int f(int n)
 	   }
 	    return count; 
 	 }
+// most efficient 
+import java.util.*;
+import java.lang.*;
+import java.io.*;
+class Main
+{
+	public static void main (String[] args) throws java.lang.Exception
+	{
+	  Scanner sc = new Scanner(System.in);
+        int n= sc.nextInt();
+        System.out.println(1+f(n));
+	}	
+       private static int f(int n)
+	{
+	    int t = (int) Math.log10(n);
+	    return t;
+	 }
+}
+input : 123
+output : 3
+	
+	
+	
