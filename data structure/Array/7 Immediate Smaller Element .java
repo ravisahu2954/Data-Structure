@@ -1,4 +1,4 @@
-#day2 .. 
+link : https://practice.geeksforgeeks.org/problems/immediate-smaller-element1142/1#
 void immediateSmaller(int arr[], int n) {
         
         
