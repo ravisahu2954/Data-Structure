@@ -1,4 +1,4 @@
-#day2
+link : https://practice.geeksforgeeks.org/problems/first-repeating-element4018/1/
  using hashmap...........
 public static int firstRepeated(int[] arr, int n) {
         
