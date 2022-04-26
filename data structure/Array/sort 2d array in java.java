@@ -46,5 +46,7 @@ Arrays.sort(arr, new Mycom());
      }
 }
 //**********//
+int mat[][] = new int[m][n];
+Arrays.sort(mat,(a,b)->(a[1]-b[1]));
 
 // 2d array k andar jo one d array h usme sirf 2 elements h toh unke 0th index k basis p sorting ho rha h
