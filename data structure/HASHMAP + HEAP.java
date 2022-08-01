@@ -45,3 +45,26 @@ class Solution {
           return ans;
     }
 }
+
+simple version
+::
+	HashMap<Integer,Integer> hm= new HashMap<>();
+        int arr[]=new int [k];
+        for(int ele: nums){
+            hm.put(ele,hm.getOrDefault(ele,0)+1);
+        }
+        
+        PriorityQueue <Integer> pq= new PriorityQueue<>((a,b) -> hm.get(a) - hm.get(b));
+        for(int n: hm.keySet()){
+            pq.add(n);
+            if(pq.size()>k){
+                pq.remove(); 
+            }
+        }
+        
+        int i=0;
+        while(!pq.isEmpty()){
+            int num=pq.remove();
+            arr[i++]=num;
+        }
+        return arr;
